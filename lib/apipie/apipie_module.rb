@@ -37,7 +37,7 @@ module Apipie
     elsif app_info_version_valid? Apipie.configuration.default_version
       Apipie.markup_to_html(self.configuration.app_info[Apipie.configuration.default_version])
     else
-      "Another API description"
+      ""
     end
   end
 
